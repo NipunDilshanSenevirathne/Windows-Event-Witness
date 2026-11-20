@@ -1,0 +1,3 @@
+9097da6c4937aff9b8fa1cb8324bf7950f549d5465c3f67a1b15a1aee5cdbccd  WindowsEventWitness.exe
+0036338e54795bc4e4c5df1df85c06a7b398333d78738ee54b7543c722f8b0f7  Windows-Event-Witness-win-x64.zip
+0edd5aaee7a3ae0c93f3de0737dae9d14e59fb7812e85a939d4e955135158c6f  Windows-Event-Witness-source.zip

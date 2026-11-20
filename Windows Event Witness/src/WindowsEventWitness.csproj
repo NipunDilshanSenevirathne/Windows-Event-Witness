@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>WindowsEventWitness</AssemblyName>
+    <ApplicationIcon>WindowsEventWitness.ico</ApplicationIcon>
+    <RootNamespace>WindowsEventWitness</RootNamespace>
+    <Product>Windows Event Witness</Product>
+    <Company>Nipun Dilshan Senevirathne</Company>
+    <Authors>Nipun Dilshan Senevirathne</Authors>
+    <Copyright>Copyright © Nipun Dilshan Senevirathne</Copyright>
+    <Description>Endpoint activity reconstruction and evidence review for Windows</Description>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="WindowsEventWitness.ico"/>
+  </ItemGroup>
+</Project>

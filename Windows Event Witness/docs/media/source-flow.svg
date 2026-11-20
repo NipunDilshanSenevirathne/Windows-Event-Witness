@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 482" role="img" aria-labelledby="title desc">
+  <title id="title">Windows Event Witness evidence flow</title>
+  <desc id="desc">Windows Event Log, exported EVTX, and the simulated demo feed a local evidence pipeline. The case keeps Windows records and powers the timeline, relationships, and findings.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#45cbbb"/>
+    </marker>
+  </defs>
+  <rect width="1120" height="482" rx="24" fill="#0b1625"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="40" y="52" fill="#e8f3f8" font-size="27" font-weight="700">Evidence flow</text>
+    <text x="40" y="80" fill="#a5bacd" font-size="15">Follow an observation from its source through case replay.</text>
+    <g fill="#14283a" stroke="#385066">
+      <rect x="40" y="119" width="240" height="66" rx="10"/>
+      <rect x="40" y="208" width="240" height="66" rx="10"/>
+      <rect x="40" y="297" width="240" height="66" rx="10"/>
+      <rect x="355" y="170" width="390" height="145" rx="14" stroke="#45cbbb" stroke-width="2"/>
+      <rect x="820" y="119" width="260" height="66" rx="10"/>
+      <rect x="820" y="208" width="260" height="66" rx="10"/>
+      <rect x="820" y="297" width="260" height="66" rx="10"/>
+    </g>
+    <g fill="none" stroke="#45cbbb" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M280 152H315V212H353"/>
+      <path d="M280 241H353"/>
+      <path d="M280 330H315V270H353"/>
+      <path d="M745 212H784V152H818"/>
+      <path d="M745 241H818"/>
+      <path d="M745 270H784V330H818"/>
+    </g>
+    <g fill="#e8f3f8" font-size="18" font-weight="600">
+      <text x="58" y="146">Windows Event Log</text>
+      <text x="58" y="235">Exported EVTX</text>
+      <text x="58" y="324">Demo case</text>
+      <text x="382" y="217" font-size="23">Local evidence case</text>
+      <text x="838" y="146">Timeline</text>
+      <text x="838" y="235">Relationships</text>
+      <text x="838" y="324">Findings</text>
+    </g>
+    <g fill="#a5bacd" font-size="14">
+      <text x="58" y="168">Available local channels</text>
+      <text x="58" y="257">Historical channel records</text>
+      <text x="58" y="346">Clearly marked simulation</text>
+      <text x="382" y="247" font-size="15">Original records and normalized fields</text>
+      <text x="382" y="274" font-size="15">Source coverage and correlation context</text>
+      <text x="838" y="168">Filter and inspect records</text>
+      <text x="838" y="257">Trace linked activity</text>
+      <text x="838" y="346">Examine the supporting events</text>
+    </g>
+    <path d="M40 420H1080" stroke="#385066"/>
+    <text x="40" y="447" fill="#9fe8dc" font-size="15" font-weight="600">Windows Event Witness</text>
+    <text x="1080" y="447" text-anchor="end" fill="#a5bacd" font-size="15">Evidence stays local through capture and replay.</text>
+  </g>
+</svg>

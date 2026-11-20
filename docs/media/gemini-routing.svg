@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 458" role="img" aria-labelledby="title desc">
+  <title id="title">Optional Gemini request routing</title>
+  <desc id="desc">Local findings stay available. With optional Gemini review enabled, the desktop app submits a minimized evidence summary after a budget check, uses a compatible model, and displays the returned advisory alongside the case.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#45cbbb"/>
+    </marker>
+  </defs>
+  <rect width="1120" height="458" rx="24" fill="#0b1625"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="40" y="52" fill="#e8f3f8" font-size="27" font-weight="700">Optional Gemini review</text>
+    <text x="40" y="80" fill="#a5bacd" font-size="15">Use model capacity for evidence summaries that benefit from review.</text>
+    <g fill="#14283a" stroke="#385066">
+      <rect x="40" y="127" width="228" height="116" rx="12"/>
+      <rect x="310" y="127" width="228" height="116" rx="12"/>
+      <rect x="580" y="127" width="228" height="116" rx="12" stroke="#45cbbb" stroke-width="2"/>
+      <rect x="850" y="127" width="230" height="116" rx="12"/>
+      <rect x="310" y="308" width="498" height="78" rx="12"/>
+    </g>
+    <g fill="none" stroke="#45cbbb" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M268 185H308"/>
+      <path d="M538 185H578"/>
+      <path d="M808 185H848"/>
+      <path d="M694 243V306" stroke-dasharray="5 5"/>
+    </g>
+    <g fill="#e8f3f8" font-size="18" font-weight="600">
+      <text x="58" y="166">Local finding</text>
+      <text x="328" y="166">Evidence summary</text>
+      <text x="598" y="166">Budget and model</text>
+      <text x="868" y="166">Advisory review</text>
+      <text x="328" y="341">Review deferred</text>
+    </g>
+    <g fill="#a5bacd" font-size="14">
+      <text x="58" y="190">Inspect source evidence</text>
+      <text x="58" y="212">with or without AI</text>
+      <text x="328" y="190">Fixed evidence fields and</text>
+      <text x="328" y="212">generated event references</text>
+      <text x="598" y="190">Compatible text model</text>
+      <text x="598" y="212">with remaining allowance</text>
+      <text x="868" y="190">Explanation, plausible causes,</text>
+      <text x="868" y="212">gaps, and a next check</text>
+      <text x="328" y="366">Local investigation continues when cloud capacity is unavailable.</text>
+    </g>
+    <text x="40" y="424" fill="#9fe8dc" font-size="15" font-weight="600">Windows Event Witness</text>
+    <text x="1080" y="424" text-anchor="end" fill="#a5bacd" font-size="15">Optional network boundary</text>
+  </g>
+</svg>
